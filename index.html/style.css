@@ -1,0 +1,117 @@
+body{
+  background-color: white;
+    font-family: "Montserrat", sans-serif;
+}
+
+.carousel-image {
+    width: 100%;
+    flex: 0 0 100%;
+}
+.dot {
+    height: 10px;
+    width: 10px;
+    margin: 0 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+.dot.active {
+    background-color: #717171;
+}
+.logo{
+  height:50px;
+}
+
+.topnav {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  height: 50px;
+  width: 100%;
+  padding-top: 0px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.nav{
+  display:flex;
+  text-decoration: none;
+  padding: 20px 10px;;
+  color:black;
+  height:10px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+.nav:hover{
+  background-color: #333;
+  color:white;
+}
+.topnav-in{
+  display:flex;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+  padding-top: 0px;
+}
+.navdrop1 {
+  border: none;
+  padding: 20px 10px;
+  cursor: pointer;
+  text-decoration: none;
+  background-color:white;
+  height:50px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+}
+.navdrop1:hover {
+  background-color: black;
+  color:white;
+}
+.navdrop-menu {
+  display: none;
+  position: absolute;
+  background-color: grey;
+  color:black;
+  width: 160px;
+  padding-left: 0;
+  margin-top: 0; /* Align with the button */
+}
+.navdrop-menu li {
+  list-style-type: none;
+}
+.navdrop-menu .dropdown-item {
+  color: white;
+  padding: 12px ;
+  text-decoration: none;
+  display: block;
+}
+.navdrop-menu .dropdown-item:hover {
+  background-color: black;
+  color: white;
+}
+.dropdown:hover .navdrop-menu {
+  display: block;
+}
+.topnav-in-right{
+  margin-left: 500px;
+}
+.topnav-in-right button{
+  color:#03346E;
+  border-color: #03346E;
+  border-style: solid;
+  height:15px;
+  padding-top: 5px;
+  margin-top: 10px;
+}
+.footer-in{
+  width:300px;
+  float:left;
+  margin:25px 50px;
+}
